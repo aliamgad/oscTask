@@ -1,0 +1,20 @@
+1-mkdir Omar
+2-cd Omar
+3-touch one.txt two.txt three.txt four.txt
+4-mkdir BAD
+5-cd BAD 
+6-touch bad.txt
+7-cd ..
+8-mv one.txt /home/osc/Download/
+9-cd /home/osc/Download/
+10-cp one.txt copy.txt
+11-cd /home/osc/Omar
+12-nano two.txt
+13-Omar
+(and saved it )
+14-nano three.txt
+15-1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC
+(and saved it )
+16-mv three.txt hello.txt
+17-rm four.txt
+18-rm -r BAD
